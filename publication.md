@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
+title: Publications
 ---
-
-# Publications
 
 ## Peer-Reviewed Publications
 - C. R. Rupakheti, M. Hays, S. Mohan, S. Chenoweth and A. Stouder, "On a Pursuit for Perfecting an Undergraduate Requirements Engineering Course," Journal of Systems and Software, Volume 144, 2018, pp. 366-381, ISSN 0164-1212 (**Extended Version**) [[Elsevier](https://www.sciencedirect.com/science/article/pii/S0164121218301390)]
