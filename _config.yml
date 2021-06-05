@@ -1,1 +1,13 @@
-theme: jekyll-theme-minimal
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: zivong/jekyll-theme-hydure
+
+title: Chandan Rupakheti
+tagline: A programmer at heart, an architect by calling, and a humble student of the art and science of computing!
+cover: assets/images/background.jpg
+author:
+  name: Chandan Rupakheti
+tags_path: blog-by-tags.html
+categories_path: blog-by-categories.html
+disqus: rupakheti
