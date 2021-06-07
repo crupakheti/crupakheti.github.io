@@ -9,12 +9,12 @@ tags: Architecture, Documentation
 
 As an engineer/architect, we make many important design decisions. Most of these decision are made in the context of available tools and constraints. As things evolve and as new features are solutioned, we may need to re-evaluate, redsign, refactor, or extend existing systems. If the key drivers for an architecturally significant decision are not adequately documented, we may need to spend a good chunk of time figuring out the rantionale for those design decisions before taking any further steps.
 
-We have recently started documenting architecturally significant design decisions for a large-scale customer portal at a client using a customized [ADR](https://adr.github.io/) template. Here is our approach:
+We have recently started documenting architecturally significant decisions for a large-scale customer portal at a client using a customized [ADR](https://adr.github.io/) template. Here is our approach:
 
 1. We started a Git repo in the company's internal Git server.
 2. We created a folder each for portal's microservices in the repo to document micro-service-specific decisions. Typically these decisions affect the quaility attributes such as availability, performance, and security of the dependent micro-services.
 3. We created a `global` folder for the decisions that would impact the entire system, i.e., majority of micro-services.
-4. We made educated effort to produce concise documentation that had enough information for an engineer/architect to decipher the rationale for major design decisions about the portal/microservices. We used the following Markdown Template:
+4. We made educated effort to produce concise documentation that had enough information for an engineer/architect to decipher the rationale for the decisions about the portal/microservices. We used the following Markdown Template:
 
 ## ADR Custom Markdown Template
 <pre>
